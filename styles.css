@@ -1,0 +1,54 @@
+.memo
+{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title
+{
+    width: 600PX;
+    height: 700PX;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.imagenes
+{
+    width: 600px;
+    height: 600px;
+    flex-wrap: wrap;
+    display:  flex; 
+}
+.cartas
+{
+    width: calc(25% - 10px);
+    height: 150px;
+    margin: 5px;
+    background-color: green;
+    box-shadow: 0 0 10px gray;
+    position: relative;
+}
+.memo-cardImg
+{
+    width: 160px;
+    height: 130px;
+    margin: 10px;
+    margin-left: -10px;
+    position: absolute;
+}
+.memo-opacity
+{
+    width: 160px;
+    height: 130px;
+    margin: 10px;
+    margin-left: -10px;
+    position: absolute;
+    opacity: 0;
+}
+.footer
+{
+    
+}
