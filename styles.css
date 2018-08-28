@@ -9,7 +9,7 @@
 .title
 {
     width: 600PX;
-    height: 700PX;
+    height: 900PX;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -27,7 +27,7 @@
     width: calc(25% - 10px);
     height: 150px;
     margin: 5px;
-    background-color: green;
+    background-color:aquamarine;
     box-shadow: 0 0 10px gray;
     position: relative;
 }
@@ -46,9 +46,15 @@
     margin: 10px;
     margin-left: -10px;
     position: absolute;
-    opacity: 0;
+    opacity: 1;
 }
 .footer
 {
-    
+    width: 600PX;
+    height: 200PX;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
