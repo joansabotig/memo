@@ -17,6 +17,7 @@ var carta1open = false;
 var carta2open = false;
 var carta1;
 var carta2;
+var aciertos =0;
 
 function chequear(card)
 {
@@ -45,6 +46,15 @@ function chequear(card)
                 if(carta1.children[0].dataset.img == carta2.children[0].dataset.img)
                 {
                 console.log("son iguales")
+                aciertos++;
+                if(aciertos>=8)
+                {
+                    //gano
+                    alert("Ganaste!");
+                    reset();
+                    aciertos =0;
+                }
+
                 }
                 else
                 {
