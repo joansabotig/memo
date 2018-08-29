@@ -1,6 +1,6 @@
 .memo
 {
-    height: 100vh;
+    height: 850px;
     width: 100vw;
     display: flex;
     justify-content: center;
@@ -9,7 +9,7 @@
 .title
 {
     width: 600PX;
-    height: 900PX;
+    height: 1000PX;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -18,7 +18,7 @@
 .imagenes
 {
     width: 600px;
-    height: 600px;
+    height: 650px;
     flex-wrap: wrap;
     display:  flex; 
 }
@@ -46,15 +46,34 @@
     margin: 10px;
     margin-left: -10px;
     position: absolute;
-    opacity: 1;
-}
+   }
 .footer
 {
     width: 600PX;
-    height: 200PX;
+    height: 100PX;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     flex-direction: column;
     align-items: center;
 }
+.op1
+{
+    opacity: 1;
+    transition: 0.5s;
+}
+.op0
+{
+opacity: 0;
+}
+.bloqueado
+{
+    pointer-events: none;
+}
+.divintentos
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
